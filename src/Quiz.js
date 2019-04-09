@@ -15,7 +15,7 @@ class Quiz extends Component {
     });
   }
   handleResetClick() {
-    this.SetState({ quiz_position: 1 });
+    this.setState({ quiz_position: 1 });
   }
   render() {
     const isQuizEnd =
